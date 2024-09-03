@@ -16,13 +16,13 @@ The management personnel shall keep a record of the procurement matters of the z
 
 ### 2.3 Data flow diagram
 ##### 2.3.1 Top-level data flow diagram
-<img width="416" alt="image" src="https://github.com/user-attachments/assets/0e8a43c6-984a-48c2-96c6-b6bf9ff97c89">
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/0e8a43c6-984a-48c2-96c6-b6bf9ff97c89">
 
 #### 2.3.2 Layer 0 data flow diagram
- <img width="416" alt="image" src="https://github.com/user-attachments/assets/ee135485-23a3-4ba7-a0a6-a6b0229b977b">
+ <img width="830" alt="image" src="https://github.com/user-attachments/assets/ee135485-23a3-4ba7-a0a6-a6b0229b977b">
 
 #### 2.3.3 Layer 1 data flow diagram
- <img width="416" alt="image" src="https://github.com/user-attachments/assets/dc6dc77e-09d5-426a-b230-fb7c576732b3">
+ <img width="830" alt="image" src="https://github.com/user-attachments/assets/dc6dc77e-09d5-426a-b230-fb7c576732b3">
 
 2.4 Data Dictionary (Partial)
 
@@ -97,28 +97,28 @@ Type: Date
 2.5.7 When a student violates certain regulations, the administrator can deduct the credit points, and when the credit points are deducted, they cannot enter the animal room to lend animals.
 ### 3．	E-R model
 #### 3.1 Total E-R diagram (attribute omitted)
- <img width="416" alt="image" src="https://github.com/user-attachments/assets/cfb24171-380e-4629-b2ad-359a2ec2bc92">
+ <img width="830" alt="image" src="https://github.com/user-attachments/assets/cfb24171-380e-4629-b2ad-359a2ec2bc92">
 
 #### 3.2 Local E-R diagram
-<img width="416" alt="image" src="https://github.com/user-attachments/assets/7f7bdb02-b94c-48aa-b4c0-c688444cfd1d">
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/7f7bdb02-b94c-48aa-b4c0-c688444cfd1d">
 
 
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/3ded5a3c-ff2a-482b-806d-c778f03d81e9">
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/3ded5a3c-ff2a-482b-806d-c778f03d81e9">
 
 
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/1f4a9b69-c737-4623-afbd-e94bae6e4e1c">
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/1f4a9b69-c737-4623-afbd-e94bae6e4e1c">
 
 
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/858a16ea-98ef-47ad-83cb-2468510239d6">
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/858a16ea-98ef-47ad-83cb-2468510239d6">
 
 
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/0a579754-3f94-43ef-a6f5-d177d64a77f2">
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/0a579754-3f94-43ef-a6f5-d177d64a77f2">
 
 
-<img width="416" alt="image" src="https://github.com/user-attachments/assets/3d5b2f09-f6bd-40ee-b4ea-34ed992009e3">
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/3d5b2f09-f6bd-40ee-b4ea-34ed992009e3">
 
 
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/87f5a4cd-85ff-4701-a1ac-29cf138f7853"> 
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/87f5a4cd-85ff-4701-a1ac-29cf138f7853"> 
 
 ### 4. Design logic and related constraints
 #### 4.1 Logical structure (table structure)
@@ -154,13 +154,18 @@ Meet the BC paradigm
   For details about how to create the primary code and external code, see SQL language operation process
 ### 5．	Security of the database
 #### 5.1 Four types of permission levels are set to correspond to different user identities.
+
 <img width="201" alt="image" src="https://github.com/user-attachments/assets/2e9314b3-f57a-4da4-8394-1ffac5ad4c85">
+
 <img width="147" alt="image" src="https://github.com/user-attachments/assets/3b3d6903-7991-4a05-b138-d578f3d82904">
   According to different identities: student/teacher (both roles have the same permissions), breeder, administrator, senior manager. Grant permissions.
   First, create a character teacher/student, breeder, and assign the role to the corresponding user. Students/teachers are given permission to check the animal and their own reputation.
+  
  <img width="273" alt="image" src="https://github.com/user-attachments/assets/3c0af3f5-8a20-4271-aee8-67b381d469e4">
+ 
   Administrators, senior administrators are directly granted superuser permissions when they are created
- <img width="415" alt="image" src="https://github.com/user-attachments/assets/91373081-d4a0-46d9-b421-c559d81c7657">
+  
+ <img width="830" alt="image" src="https://github.com/user-attachments/assets/91373081-d4a0-46d9-b421-c559d81c7657">
 
 #### 5.2. Exterior pattern design
 5.2.1 Query and manage available animals: create a table of experimental animals, teachers/students can query, and breeders can modify records.
@@ -182,26 +187,34 @@ Meet the BC paradigm
   For student topics and project group tables that often need to be linked, cluster indexes can be established.
 ### 7. Implementation and presentation of results
   Use the Python flask framework to build the backend, and html+css+Javascript to build the frontend. Use pymssql to link the sqlserver database.
-  Login screen:
-<img width="483" alt="image" src="https://github.com/user-attachments/assets/0af159b9-0852-4034-a5ee-3b35a0cf0877">
+  Login screen
+  
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/0af159b9-0852-4034-a5ee-3b35a0cf0877">
 
-  Login (using the breeder account as an example):
-<img width="482" alt="image" src="https://github.com/user-attachments/assets/60210c11-7d4b-4cc5-92f1-1097f1ffa923">
+  Login (using the breeder account as an example)
+  
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/60210c11-7d4b-4cc5-92f1-1097f1ffa923">
 
   After logging in, you will be automatically redirected to the corresponding page and the relevant information will be displayed
-<img width="481" alt="image" src="https://github.com/user-attachments/assets/6101522c-6f50-498f-a8cd-7c9458d58d50">
+  
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/6101522c-6f50-498f-a8cd-7c9458d58d50">
 
   Personal information display floating sidebar
-<img width="483" alt="image" src="https://github.com/user-attachments/assets/a1bb3191-591f-4e4d-bd17-452b46253f4e">
+  
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/a1bb3191-591f-4e4d-bd17-452b46253f4e">
 
   Query function
-<img width="480" alt="image" src="https://github.com/user-attachments/assets/6ae6b59d-b8b3-496b-b73f-1ed17a0fe1ee">
+  
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/6ae6b59d-b8b3-496b-b73f-1ed17a0fe1ee">
  
- Page change on the sidebar:
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/4e267ca5-f5a0-437c-89f6-4f88a6057ba6">
+ Page change on the sidebar
+ 
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/4e267ca5-f5a0-437c-89f6-4f88a6057ba6">
 
 Modify and insert a common floater:
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/acfb65b1-6b20-4cdc-92b1-765a83952728">
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/7333c3d2-c7b1-40e6-ad50-03548e8079a4">
+
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/acfb65b1-6b20-4cdc-92b1-765a83952728">
+
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/7333c3d2-c7b1-40e6-ad50-03548e8079a4">
 
  
