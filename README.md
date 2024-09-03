@@ -24,42 +24,68 @@ The management personnel shall keep a record of the procurement matters of the z
 #### 2.3.3 Layer 1 data flow diagram
  <img width="416" alt="image" src="https://github.com/user-attachments/assets/dc6dc77e-09d5-426a-b230-fb7c576732b3">
 
-2.4 Data Dictionary (Partial).
+2.4 Data Dictionary (Partial)
+
 Data item: student ID
+
 What it means: Uniquely identifies the student
+
 Alias: Number
+
 Type: Character
+
 Length: 18
+
 Value range: 000000000000000001~999999999999999999
 
 Data item: The student's name
+
 Explanation of meaning: Student's name
+
 Alias: Name
+
 Type: Character
+
 Length: 12
 
-Data item: Gender 
+Data item: Gender
+
 Meaning: Student's gender
+
  alias: Gender 
+ 
 type: Character
- type: 2Value 
+
+ type: 2Value
+ 
 range: male or female
 
-Data item: research group 
+Data item: research group
+
 Meaning description: Student's ID number
+
  alias: Research group
+ 
  type: Character
+ 
  length: 18
 
 Data item: Reputation score
+
 What it means: The student's phone number
+
 Alias: Reputation Score
+
 Type: Character
+
 Length: 11
 
 Data Item: Date
+
 Meaning note: Check-in date of mouse loan
+
 Alias: Date of loan
+
 Type: Date
 ##### 2.5 Restrictions
 2.5.1 Each student can only have one account, and the number of animals that a student can borrow in a day cannot exceed 50, and the excess must be approved by the administrator.
