@@ -12,7 +12,7 @@ Mouse breeders need to clarify the feeding requirements of each cage, including 
   If mice in a certain type of cage are not fed as required, record the name and date of the day of the offending keeper for management to see
 The management personnel shall keep a record of the procurement matters of the zoo, including the purchase number, the time of the purchase, the type and quantity of the purchased items, the name of the supplier, and the name of the manager responsible for the procurement, of which the supplier shall be in the list of suppliers who have reached cooperation with the agency within the date of procurement
 ### 2.2 Functional structure
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/6a3d8f24-5327-4dc2-b117-96001d1e2d7c">
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/6a3d8f24-5327-4dc2-b117-96001d1e2d7c">
 
 ### 2.3 Data flow diagram
 ##### 2.3.1 Top-level data flow diagram
