@@ -158,6 +158,7 @@ Meet the BC paradigm
 <img width="201" alt="image" src="https://github.com/user-attachments/assets/2e9314b3-f57a-4da4-8394-1ffac5ad4c85">
 
 <img width="147" alt="image" src="https://github.com/user-attachments/assets/3b3d6903-7991-4a05-b138-d578f3d82904">
+
   According to different identities: student/teacher (both roles have the same permissions), breeder, administrator, senior manager. Grant permissions.
   First, create a character teacher/student, breeder, and assign the role to the corresponding user. Students/teachers are given permission to check the animal and their own reputation.
   
