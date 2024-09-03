@@ -102,17 +102,24 @@ Type: Date
 #### 3.2 Local E-R diagram
 <img width="416" alt="image" src="https://github.com/user-attachments/assets/7f7bdb02-b94c-48aa-b4c0-c688444cfd1d">
 
+
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/3ded5a3c-ff2a-482b-806d-c778f03d81e9">
+
 
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/1f4a9b69-c737-4623-afbd-e94bae6e4e1c">
 
+
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/858a16ea-98ef-47ad-83cb-2468510239d6">
+
 
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/0a579754-3f94-43ef-a6f5-d177d64a77f2">
 
+
 <img width="416" alt="image" src="https://github.com/user-attachments/assets/3d5b2f09-f6bd-40ee-b4ea-34ed992009e3">
 
+
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/87f5a4cd-85ff-4701-a1ac-29cf138f7853"> 
+
 ### 4. Design logic and related constraints
 #### 4.1 Logical structure (table structure)
 4.1.1	Student (student number, name, student category, research group, credit score).
